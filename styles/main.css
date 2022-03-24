@@ -6,11 +6,12 @@
   
 html {
     color: white;
+    background-image: url('../images/background.jpg');
+    background-size: contain;
+    background-attachment: fixed;
 }
 
 body {
-    background-image: url('../images/background.jpg');
-    background-size: contain;
     margin: 0;
     font-family: Arial;
 }
@@ -51,8 +52,7 @@ footer {
 }
   
 .column img {
-    max-width: 350px;
-    width: 100%;
+    flex-basis: 1;
     margin-top: 8px;
     vertical-align: middle;
 }
